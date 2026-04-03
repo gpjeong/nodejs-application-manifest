@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: task-api
-          image: harbor.devops.cicd.test/test/test:latest
+          image: harbor.devops.cicd.test/test343/test34:latest
           ports:
             - containerPort: 3000
               protocol: TCP
