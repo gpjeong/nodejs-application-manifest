@@ -18,7 +18,7 @@ spec:
         - name: harbor-registry-secret
       containers:
         - name: task-api
-          image: harbor.devops.cicd.test/test/nodejs:latest
+          image: harbor.devops.cicd.test/test343/test34:latest
           ports:
             - containerPort: 3000
               protocol: TCP
