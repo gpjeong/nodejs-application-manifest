@@ -18,7 +18,7 @@ spec:
         - name: harbor-registry-secret
       containers:
         - name: task-api
-          image: harbor.devops.cicd.test/0726-pipeline/testtest:test
+          image: harbor.devops.cicd.test/lig-demo/lig-demo:test
           ports:
             - containerPort: 3000
               protocol: TCP
